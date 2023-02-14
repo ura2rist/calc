@@ -95,7 +95,7 @@ module.exports = (env, args) => {
             options: {
               presets: ['@babel/preset-env'],
             },
-          }, 'ts-loader'],
+          }, /*'ts-loader'*/],
         },
         {
           test: /\.(png|jpe?g|gif|bmp|svg|ico)$/i,
