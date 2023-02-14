@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const output = document.querySelector('.filters__range:nth-child(2) .inp__icon');
 
-    percent = Math.round(value / max * 100);
+    percent = Math.floo(value / max * 100);
 
     output.textContent = percent + '%';
   }

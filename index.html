@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Калькулятор</title>
+<script defer="defer" src="script/main.js"></script><link href="css/style.css" rel="stylesheet"></head>
+<body class="body">
+  <main class="main">
+    <section class="calculation">
+      <div class="wrapper">
+        <h1 class="title calculation__title">Рассчитайте стоимость автомобиля в лизинг</h1>
+        <div class="calculation__filters filters">
+          <div class="filters__item filters__range">
+            <h2 class="filters__title">Стоимость автомобиля</h2>
+            <div class="filter">
+              <div class="filter__content">
+                <div class="filter__values">
+                  <div class="inp">
+                    <div class="inp__wrapper">
+                      <input type="text" class="inp__text min">
+                      <div class="inp_active-bg"></div>
+                      <div class="inp__icon"><span class="inp__symbol">₽</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__slider">
+                  <div class="filter__line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filters__item filters__range">
+            <h2 class="filters__title">Первоначальный взнос</h2>
+            <div class="filter">
+              <div class="filter__content">
+                <div class="filter__values">
+                  <div class="inp">
+                    <div class="inp__wrapper">
+                      <input type="text" class="inp__text min">
+                      <div class="inp_active-bg"></div>
+                      <div class="inp__icon">13%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__slider">
+                  <div class="filter__line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filters__item filters__range">
+            <h2 class="filters__title">Срок лизинга</h2>
+            <div class="filter">
+              <div class="filter__content">
+                <div class="filter__values">
+                  <div class="inp">
+                    <div class="inp__wrapper">
+                      <input type="text" class="inp__text min">
+                      <div class="inp_active-bg"></div>
+                      <div class="inp__icon">мес.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__slider">
+                  <div class="filter__line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filters__item">
+            <h2 class="filters__title">Сумма договора лизинга</h2>
+            <p class="filters__price sum">4 467 313</p>
+          </div>
+          <div class="filters__item">
+            <h2 class="filters__title">Ежемесячный платеж от</h2>
+            <p class="filters__price term">114 455</p>
+          </div>
+          <div class="filters__item">
+            <button class="btn">Оставить заявку</button>
+          </div>
+        </div>		
+      </div>
+    </section>
+  </main>
+  </body>
+</html>
